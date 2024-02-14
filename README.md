@@ -50,6 +50,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
+import incrmrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mrange/tags). For example,
+
+```javascript
 import incrmrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@v0.2.0-esm/index.mjs';
 ```
 
@@ -120,7 +125,7 @@ r = accumulator();
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import incrmrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@v0.2.0-esm/index.mjs';
+import incrmrange from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@esm/index.mjs';
 
 var accumulator;
 var v;
