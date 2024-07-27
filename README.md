@@ -52,6 +52,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 To use in Observable,
 
 ```javascript
+incrmrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-mrange/tags). For example,
+
+```javascript
 incrmrange = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@v0.2.2-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var incrmrange = require( 'path/to/vendor/umd/stats-incr-mrange/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -142,7 +147,7 @@ r = accumulator();
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@v0.2.2-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-mrange@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
